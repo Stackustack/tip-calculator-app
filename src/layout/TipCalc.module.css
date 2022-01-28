@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+  /* Background for calculated component and backgroun of buttons and some texts */
+  --Very-dark-cyan: hsl(183, 100%, 15%);
+  /* Selected, CTA-Active and amount */
+  --Active-cyan: #26C2AD;
+  /* For "Custom" text */
+  --Darker-grayish-cyan: hsl(186, 14%, 43%);
+  /* For Icons */
+  --Dark-grayish-cyan: hsl(184, 14%, 56%); 
+  --Background: hsl(185, 41%, 84%);
+  /* Input background and custom button */
+  --Lighter-grayish-cyan: hsl(189, 41%, 97%);
+  /* App Card background */
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  font-family: 'Space Mono', monospace;
+}
+
+body {
+  background-color: var(--Background);
+}
+
+.app-wrapper {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 2rem; 
+    grid-template-areas: 
+        "inputs calculated";
+    background-color: var(--White);
+    
+    max-width:70rem;
+    margin: 0 auto;
+}
+
+.app-wrapper__calculated {
+    background-color: var(--Very-dark-cyan);
+    grid-area: calculated;
+    padding: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.app-wrapper__inputs {
+    grid-area: inputs;
+}
+
+.calculated__reset-button {
+    align-self: flex-end;
+}
+
+.calculated__calculations {
+
+}

@@ -1,0 +1,25 @@
+.button {
+    min-height: 4rem;
+    text-align: center;
+    background-color: var(--Very-dark-cyan);
+    color: var(--White);
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+    font-weight: 800;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.selected {
+    background-color: var(--Active-cyan);
+    color: var(--Very-dark-cyan)
+}
+
+.isCustom {
+    background-color: var(--Lighter-grayish-cyan);
+    color: var(--Darker-grayish-cyan)
+}

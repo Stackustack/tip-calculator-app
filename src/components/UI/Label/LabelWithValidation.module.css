@@ -1,0 +1,17 @@
+.labelWithValidation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.labelWithValidation__label {
+    color: var(--Dark-grayish-cyan);
+    font-weight: 800;
+}
+
+.labelWithValidation__validationText {
+    color: red
+}

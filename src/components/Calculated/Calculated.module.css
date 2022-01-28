@@ -1,0 +1,34 @@
+.calculated {  
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "label-top value"
+    "label-bottom value";
+
+}
+
+.calculated__value { 
+    grid-area: value; 
+    color: var(--Active-cyan);
+    text-align: right; 
+    margin: auto 0;
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+
+.calculated__label-top { 
+    grid-area: label-top; 
+    color: var(--White); 
+    align-self:flex-end;
+    font-size: 1.2rem;
+}
+
+.calculated__label-bottom { 
+    grid-area: label-bottom; 
+    color: var(--Darker-grayish-cyan); 
+    align-self:flex-start;
+    font-size: 1rem;
+}

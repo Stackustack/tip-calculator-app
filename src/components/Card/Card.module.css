@@ -1,0 +1,14 @@
+.card {
+    box-sizing: border-box;
+    height: auto;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+.card--white-container {
+    background-color: var(--White);
+}
+
+.card--cyan-container {
+    background-color: var(--Very-dark-cyan);
+}

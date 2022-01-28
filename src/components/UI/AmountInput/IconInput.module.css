@@ -1,0 +1,16 @@
+.iconInput {
+    margin-top: 0.5rem;
+    position: relative;
+    min-height: 4rem;
+}
+
+.iconInput__input {
+    text-align: right;
+}
+
+.iconInput__icon {
+    position: absolute;
+    left: 1.5rem;
+    top: 32%;
+    height: 36%
+}

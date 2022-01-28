@@ -1,0 +1,29 @@
+.input {
+    min-height: 4rem;
+    width: 100%;
+    padding-right: 1rem;
+
+    background-color: var(--Lighter-grayish-cyan);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+    border: none;
+    outline: none;
+    
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: var(--Very-dark-cyan);
+    
+    border-radius: .5rem;
+    border: 0.2rem solid var(--Lighter-grayish-cyan);
+    box-sizing: border-box; 
+}
+
+.input:focus {
+    border: 0.2rem solid var(--Active-cyan);
+    caret-color: var(--Active-cyan);
+}
+
+.input--selected {
+    border: 0.2rem solid var(--Active-cyan);
+}
